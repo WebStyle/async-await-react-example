@@ -57,7 +57,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Async/Await React example</h1>
         </header>
         <div>
           <button type="button" onClick={this.getUsers}>Get users</button>
