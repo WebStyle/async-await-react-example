@@ -38,7 +38,7 @@ class App extends Component {
 
   async getPosts() {
     let posts = await this.request('https://jsonplaceholder.typicode.com/posts');
-    this.changeListTo(posts, 'posts')
+    this.changeListTo(posts, 'posts');
   }
 
   async request(url) {
@@ -62,7 +62,7 @@ class App extends Component {
         <div>
           <button type="button" onClick={this.getUsers}>Get users</button>
           <button type="button" onClick={this.getComments}>Get comments</button>
-          <button type="button" onClick={this.getPosts}>Get comments</button>
+          <button type="button" onClick={this.getPosts}>Get posts</button>
           <button type="button" onClick={this.getTodos}>Get todo list</button>
         </div>
         <div>
